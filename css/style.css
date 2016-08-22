@@ -1,0 +1,77 @@
+h1 {
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+  font-family: "Lucida Console", Monaco, monospace;
+  padding: 0.2em 0 0.2em 0;
+}
+
+p {
+  font-family: "Lucida Console", Monaco;
+  font-style: oblique;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+body {
+  background-color: #e3f2fd;
+}
+
+.content-wrapper {
+  height: 600px;
+  width: 700px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.content {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-color: rgba(100, 150, 200, 1);
+  background-color: #90caf9;
+  box-shadow: 0px 0px 3px 2px #bbdefb;
+}
+
+.heading {
+  background-color: #2196f3;
+  box-shadow: 0px 1px 1px -1px gray;
+}
+
+.quote-wrapper {
+  padding: 1em;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.txtQuote {
+  height: 8em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: inset 1px 1px 5px -1px#888888;
+}
+
+.btnQuote {
+  border: none;
+  border-radius: 5px;
+  height: 32px;
+  background-color: #e3f2fd;
+}
+
+button.btnQuote:hover {
+  background-color: #ffffff;
+}
+
+.tweet {
+  float: right;
+}
