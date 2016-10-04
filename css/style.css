@@ -1,36 +1,16 @@
-h1 {
-  text-align: center;
-  color: #ffffff;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-  font-weight: 500;
-  font-family: "Lucida Console", Monaco, monospace;
-  padding: 0.2em 0 0.2em 0;
-}
-
-p {
-  font-family: "Lucida Console", Monaco;
-  font-style: oblique;
-  text-align: center;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
-}
-
 body {
   background-color: #e3f2fd;
+  font-size: 16px;
+  font-family: 'Dancing Script', cursive;
 }
 
-.content-wrapper {
-  height: 600px;
-  width: 700px;
-  margin: 0 auto;
-  position: relative;
-}
-
-.content {
-  position: relative;
+.quote-wrapper {
+  max-height: 300px;
+  width: 400px;
+  position: absolute;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  left: 50%;
+  margin: -150px 0 0 -200px;
   border-color: rgba(100, 150, 200, 1);
   background-color: #90caf9;
   box-shadow: 0px 0px 3px 2px #bbdefb;
@@ -39,9 +19,14 @@ body {
 .heading {
   background-color: #2196f3;
   box-shadow: 0px 1px 1px -1px gray;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
+  font-size: 30px;
 }
 
-.quote-wrapper {
+.quote-box {
   padding: 1em;
   width: 90%;
   margin: 0 auto;
@@ -51,14 +36,23 @@ body {
   height: 8em;
   padding-left: 1em;
   padding-right: 1em;
-  margin: 0 auto;
   display: flex;
+  display: -webkit-flex;
   flex-direction: column;
+  -webkit-flex-firection: column;
   justify-content: center;
+  -webkit-justify-content: center;
   align-items: center;
+  -webkit-align-items: center;
   background-color: #ffffff;
   border-radius: 15px;
   box-shadow: inset 1px 1px 5px -1px#888888;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.button-menu {
+  padding-top: 10px;
 }
 
 .btnQuote {
